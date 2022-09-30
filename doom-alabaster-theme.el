@@ -18,7 +18,7 @@
 ;;; Code:
 (require 'doom-themes)
 
-(def-doom-theme doom-alabaster
+(def-doom-theme doom-alabaster-theme
   "A light theme with little highlighting"
 
 ;;;; Colors
@@ -82,7 +82,7 @@
    (modeline-bg-inactive base0))
 
 ;;;; Base theme face overrides
-  ((line-number                           :background bg-alt)
+  ((line-number                           :background bg :foreground bg-alt)
    (minibuffer-prompt                     :foreground dark-blue)
    (mode-line                             :foreground modeline-fg :background modeline-bg)
    (mode-line-emphasis                    :inherit 'mode-line :bold t)
