@@ -18,7 +18,7 @@
 ;;; Code:
 (require 'doom-themes)
 
-(def-doom-theme doom-alabaster-theme
+(def-doom-theme doom-alabaster
   "A light theme with little highlighting"
 
 ;;;; Colors
